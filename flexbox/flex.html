@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            .container{
+                display: flex;/*enable flebox -default horizontally*/
+                flex-direction: row; /*flex items horizontally*/
+                justify-content: space-between; /*spread item horizontally*/
+                align-items: center;
+                flex-wrap: wrap; /*wrap items to next line*/
+                height: 200px;
+                border : 2px solid black;
+                padding: 10px;
+            }
+            .item{
+                background-color: cyan;
+                padding: 20px;
+                margin: 10px;
+                flex: 1 1 150px; /*grow, shrink, flex-basewidth*/
+                text-align: center;
+                border: 1px solid red;
+            }
+        </style>
+</head>
+<body>
+    <h2 style="text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">flex layout example</h2>
+    <div class="container">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block-inlineblock</title>
+    <style>
+        body{
+             margin: 20px;
+             background-color: #2f4255 ;
+             display: ;
+             color: white;
+        }
+        .block1{
+            display: block;
+            background-color: rgb(0, 255, 136);
+            width: 150px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .block2{
+            display: block;
+            width: 150px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: rgb(221, 160, 221);
+        }
+        .block3{
+            display: block;
+            width: 80px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: rgb(224, 162, 47);
+        }
+        .block4{
+            display: block;
+            width: 170px;
+            height: 50px;
+            background-color: aqua;
+        }
+        .box{
+            background-color: rgb(46, 85, 107);
+            width: 350px;
+            height: 250px;
+            padding : 10px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-right: 40px;
+        }
+         .inline1{
+            display: inline;
+            background-color: rgb(0, 255, 136);
+            width: 150px;
+            height: 50px;
+            margin-right: 10px;           
+            float: left;
+        }
+        .inline2{
+            display: inline;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(221, 160, 221); 
+            float: left;
+        }
+        .inline3{
+            display: inline;
+            width: 80px;
+            height: 50px;
+            margin-right: 10px;
+            background-color: rgb(224, 162, 47);
+            float: left;
+            margin-top: 10px;
+        }
+        .inline4{
+            display: inline;
+            width: 170px;
+            height: 50px;
+            background-color: aqua;
+            float: left;
+            margin-top: 10px;
+        }
+        .box2{
+             background-color: rgb(46, 85, 107);
+            width: 400px;
+            height: 250px;
+            padding: 10px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            
+            
+        }       
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="block1"></div>
+    <div class="block2"></div>
+    <div class="block3"></div>
+    <div class="block4"></div>
+    </div>
+    <div class="description">
+        <h4>display:<span style="color: rgb(0, 204, 255); margin-left: 10px;">block;</h4></span>
+        <p style="margin-left: 10;">block elements stack,regardlessof their width.</p>
+    </div>
+    <div class="box2">
+        <span class="inline1"></span>
+        <span class="inline2"></span>
+        <span class="inline3"></span>
+        <span class="inline4"></span>
+    </div>
+    <div class="box3">
+
+    </div>
+</body>
+</html>

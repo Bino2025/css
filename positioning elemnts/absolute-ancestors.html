@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute ancestors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: aliceblue;
+        }
+        .parent{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        .child{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent" style="text-align: center;">parent</div>
+    <div class="child" style="text-align: center;">child</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus</title>
+    <style>
+        input{
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid rgb(0, 172, 224);
+            outline: none; /*remove default black outline*/
+            box-shadow: none; /*remove default black box shadow*/
+            transition: border-color 0.3s ease-in-out;
+
+        }
+        input:focus{
+            border-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Type something...">
+</body>
+</html>
